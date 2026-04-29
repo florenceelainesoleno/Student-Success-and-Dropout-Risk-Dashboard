@@ -4,7 +4,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
 
-
 # =========================================================
 # COLOR THEME CONSTANTS
 # =========================================================
@@ -19,8 +18,6 @@ INFO = "#4CC9F0"
 WARNING = "#FFBE0B"
 PURPLE = "#8338EC"
 
-
-
 # =========================================================
 # PAGE CONFIGURATION
 # =========================================================
@@ -30,14 +27,12 @@ st.set_page_config(
     layout="wide"
 )
 
-
 st.markdown('<div class="top-spacer"></div>', unsafe_allow_html=True)
 
 image = Image.open("banner.png")
 st.image(image, caption="", use_container_width=True)
 
 st.markdown('<div class="banner-bottom-spacer"></div>', unsafe_allow_html=True)
-
 
 # =========================================================
 # CUSTOM CSS
@@ -792,10 +787,8 @@ fig_heat.update_layout(
     margin=dict(l=40, r=120, t=70, b=50)
 )
 
-# Shrink only the heatmap area so the colorbar has space
 fig_heat.update_xaxes(domain=[0.0, 0.90])
 
-# Move the color meter safely inside the chart area
 fig_heat.update_traces(
     colorbar=dict(
         x=5,
@@ -1073,8 +1066,6 @@ Dashboard created using <b>Python, Streamlit, Pandas, and Plotly</b>.
 # =========================================================
 # MARQUEE
 # =========================================================
-
-
 st.markdown("""
 <div class="marquee-container">
     <div class="marquee">
