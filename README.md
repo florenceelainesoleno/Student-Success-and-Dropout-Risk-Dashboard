@@ -62,10 +62,3 @@ The dataset underwent preprocessing to ensure quality, including handling anomal
 🔗 [View the Dashboard](https://student-success-and-dropout-risk-dashboard-ckyvsegg5zavzbk9kjr.streamlit.app/)
 
 ---
-
-## ⚙️ Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
