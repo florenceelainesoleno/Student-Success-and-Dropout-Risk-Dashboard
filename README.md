@@ -59,6 +59,6 @@ The dataset underwent preprocessing to ensure quality, including handling anomal
 
 ## 🌐 Live Dashboard
 
-🔗 [View the Dashboard](https://student-success-and-dropout-risk-dashboard-ckyvsegg5zavzbk9kjr.streamlit.app/)
+🔗 [View the Dashboard](https://student-success-and-dropout-risk-dashboard-eyh5qpuqujc9br8uces.streamlit.app/)
 
 ---
